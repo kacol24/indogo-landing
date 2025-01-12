@@ -1,10 +1,14 @@
 module.exports = {
- content: require('fast-glob').sync([
+  content: require('fast-glob').sync([
     'source/**/*.{blade.php,blade.md,md,html,vue}',
     '!source/**/_tmp/*' // exclude temporary files
-  ],{ dot: true }),
+  ], {dot: true}),
   theme: {
-    extend: {},
+    fontFamily: {
+      'gotham-rounded': 'Gotham Rounded, sans-serif',
+      'gotham-book': 'Gotham Rounded Book, sans-serif'
+    },
+    extend: {}
   },
-  plugins: [],
+  plugins: []
 };
