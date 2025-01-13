@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     @stack('after_styles')
 </head>
-<body class="antialiased">
+<body class="antialiased font-gotham-rounded">
 @yield('content')
 
 <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
