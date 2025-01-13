@@ -103,5 +103,192 @@
                 </div>
             </div>
         </section>
+        <section title="Products" class="h-screen snap-start">
+            <div class="flex flex-row flex-nowrap overflow-x-scroll h-full snap-x snap-mandatory">
+                <div class="h-full w-screen snap-start" style="min-width: 100vw;">
+                    <div class="h-full w-full"
+                         style="background: url(/assets/images/babygo/bg-products.jpeg) left center; background-size: cover">
+                        <div class="flex h-full flex-col md:flex-row md:gap-x-4 container mx-auto">
+                            <div class="w-full md:w-6/12">
+                                <div class="flex h-full flex-col items-center justify-center">
+                                    <img src="/assets/images/babygo/diaper-bag/aeon-diaper-bag.png"
+                                         alt="aeon diaper bag"
+                                         class="h-auto max-w-full w-full">
+                                </div>
+                            </div>
+                            <div class="w-full md:w-6/12">
+                                <div class="flex h-full items-center justify-center p-4">
+                                    <div class="rounded-lg p-5 w-full text-center font-gotham-rounded"
+                                         style="background-color:#daefe3;max-width: 625px">
+                                        <h3 class="font-bold text-3xl md:text-5xl -mt-8 mb-8 -md:mt-10 md:mb-10"
+                                            style="color: #069247; text-shadow: -3px -3px 2px #fff, -3px 3px 2px #fff, 3px -3px 2px #fff, 3px 3px 2px #fff, -1px -1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff, 1px 1px 0 #fff;">
+                                            Aeon Diaper Bag
+                                        </h3>
+                                        <span class="font-bold text-white rounded-full px-3.5 py-0 text-xl md:text-3xl leading-none"
+                                              style="background-color:#6dac33;">
+                                        Dimensi Tas
+                                    </span>
+                                        <div class="text-xl md:text-3xl my-5" style="color: #455058">
+                                            P x L x T : 25 x 14 x 38 (cm)
+                                        </div>
+                                        <span class="font-bold text-white rounded-full px-3.5 py-0 text-xl md:text-3xl leading-none"
+                                              style="background-color:#6dac33;">
+                                        Tersedia dalam Warna
+                                    </span>
+                                        <div class="flex flex-row gap-x-4 md:gap-x-9 mt-2.5 justify-center">
+                                            <div class="size-16 md:size-20 rounded-full flex items-center justify-center text-white font-medium text-base md:text-lg"
+                                                 style="background-color:#29465d;">
+                                                Biru
+                                            </div>
+                                            <div class="size-16 md:size-20 rounded-full flex items-center justify-center text-white font-medium text-base md:text-lg"
+                                                 style="background-color:#292925;">
+                                                Hitam
+                                            </div>
+                                            <div class="size-16 md:size-20 rounded-full flex items-center justify-center text-white font-medium text-base md:text-lg"
+                                                 style="background-color:#614e58;">
+                                                Coklat
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-row md:gap-x-20 mt-5">
+                                            <div>
+                                                <img src="/assets/images/babygo/diaper-bag/bonus-waterproof.png" alt=""
+                                                     class="h-auto max-w-full w-full">
+                                            </div>
+                                            <div>
+                                                <img src="/assets/images/babygo/diaper-bag/model-aeon-diaper-bag.jpeg"
+                                                     alt=""
+                                                     class="h-auto max-w-full w-full">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-full w-screen snap-start" style="min-width: 100vw;">
+                    <div class="h-full w-full"
+                         style="background: url(/assets/images/babygo/bg-products.jpeg) left center; background-size: cover">
+                        <div class="flex h-full flex-col md:flex-row md:gap-x-4 container mx-auto">
+                            <div class="w-full md:w-6/12">
+                                <div class="flex h-full flex-col items-center justify-center">
+                                    <img src="/assets/images/babygo/diaper-bag/aeon-diaper-bag.png"
+                                         alt="aeon diaper bag"
+                                         class="h-auto max-w-full w-full">
+                                </div>
+                            </div>
+                            <div class="w-full md:w-6/12">
+                                <div class="flex h-full items-center justify-center p-4">
+                                    <div class="rounded-lg p-5 w-full text-center font-gotham-rounded"
+                                         style="background-color:#daefe3;max-width: 625px">
+                                        <h3 class="font-bold text-3xl md:text-5xl -mt-8 mb-8 -md:mt-10 md:mb-10"
+                                            style="color: #069247; text-shadow: -3px -3px 2px #fff, -3px 3px 2px #fff, 3px -3px 2px #fff, 3px 3px 2px #fff, -1px -1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff, 1px 1px 0 #fff;">
+                                            Aeon Diaper Bag
+                                        </h3>
+                                        <span class="font-bold text-white rounded-full px-3.5 py-0 text-xl md:text-3xl leading-none"
+                                              style="background-color:#6dac33;">
+                                        Dimensi Tas
+                                    </span>
+                                        <div class="text-xl md:text-3xl my-5" style="color: #455058">
+                                            P x L x T : 25 x 14 x 38 (cm)
+                                        </div>
+                                        <span class="font-bold text-white rounded-full px-3.5 py-0 text-xl md:text-3xl leading-none"
+                                              style="background-color:#6dac33;">
+                                        Tersedia dalam Warna
+                                    </span>
+                                        <div class="flex flex-row gap-x-4 md:gap-x-9 mt-2.5 justify-center">
+                                            <div class="size-16 md:size-20 rounded-full flex items-center justify-center text-white font-medium text-base md:text-lg"
+                                                 style="background-color:#29465d;">
+                                                Biru
+                                            </div>
+                                            <div class="size-16 md:size-20 rounded-full flex items-center justify-center text-white font-medium text-base md:text-lg"
+                                                 style="background-color:#292925;">
+                                                Hitam
+                                            </div>
+                                            <div class="size-16 md:size-20 rounded-full flex items-center justify-center text-white font-medium text-base md:text-lg"
+                                                 style="background-color:#614e58;">
+                                                Coklat
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-row md:gap-x-20 mt-5">
+                                            <div>
+                                                <img src="/assets/images/babygo/diaper-bag/bonus-waterproof.png" alt=""
+                                                     class="h-auto max-w-full w-full">
+                                            </div>
+                                            <div>
+                                                <img src="/assets/images/babygo/diaper-bag/model-aeon-diaper-bag.jpeg"
+                                                     alt=""
+                                                     class="h-auto max-w-full w-full">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-full w-screen snap-start" style="min-width: 100vw;">
+                    <div class="h-full w-full"
+                         style="background: url(/assets/images/babygo/bg-products.jpeg) left center; background-size: cover">
+                        <div class="flex h-full flex-col md:flex-row md:gap-x-4 container mx-auto">
+                            <div class="w-full md:w-6/12">
+                                <div class="flex h-full flex-col items-center justify-center">
+                                    <img src="/assets/images/babygo/diaper-bag/aeon-diaper-bag.png"
+                                         alt="aeon diaper bag"
+                                         class="h-auto max-w-full w-full">
+                                </div>
+                            </div>
+                            <div class="w-full md:w-6/12">
+                                <div class="flex h-full items-center justify-center p-4">
+                                    <div class="rounded-lg p-5 w-full text-center font-gotham-rounded"
+                                         style="background-color:#daefe3;max-width: 625px">
+                                        <h3 class="font-bold text-3xl md:text-5xl -mt-8 mb-8 -md:mt-10 md:mb-10"
+                                            style="color: #069247; text-shadow: -3px -3px 2px #fff, -3px 3px 2px #fff, 3px -3px 2px #fff, 3px 3px 2px #fff, -1px -1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff, 1px 1px 0 #fff;">
+                                            Aeon Diaper Bag
+                                        </h3>
+                                        <span class="font-bold text-white rounded-full px-3.5 py-0 text-xl md:text-3xl leading-none"
+                                              style="background-color:#6dac33;">
+                                        Dimensi Tas
+                                    </span>
+                                        <div class="text-xl md:text-3xl my-5" style="color: #455058">
+                                            P x L x T : 25 x 14 x 38 (cm)
+                                        </div>
+                                        <span class="font-bold text-white rounded-full px-3.5 py-0 text-xl md:text-3xl leading-none"
+                                              style="background-color:#6dac33;">
+                                        Tersedia dalam Warna
+                                    </span>
+                                        <div class="flex flex-row gap-x-4 md:gap-x-9 mt-2.5 justify-center">
+                                            <div class="size-16 md:size-20 rounded-full flex items-center justify-center text-white font-medium text-base md:text-lg"
+                                                 style="background-color:#29465d;">
+                                                Biru
+                                            </div>
+                                            <div class="size-16 md:size-20 rounded-full flex items-center justify-center text-white font-medium text-base md:text-lg"
+                                                 style="background-color:#292925;">
+                                                Hitam
+                                            </div>
+                                            <div class="size-16 md:size-20 rounded-full flex items-center justify-center text-white font-medium text-base md:text-lg"
+                                                 style="background-color:#614e58;">
+                                                Coklat
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-row md:gap-x-20 mt-5">
+                                            <div>
+                                                <img src="/assets/images/babygo/diaper-bag/bonus-waterproof.png" alt=""
+                                                     class="h-auto max-w-full w-full">
+                                            </div>
+                                            <div>
+                                                <img src="/assets/images/babygo/diaper-bag/model-aeon-diaper-bag.jpeg"
+                                                     alt=""
+                                                     class="h-auto max-w-full w-full">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 @endsection
