@@ -6,7 +6,7 @@
                  class="w-full max-w-full object-cover object-right md:h-full md:w-auto">
         </div>
         <div class="w-full py-4 md:w-6/12">
-            <div class="flex h-full flex-col items-center justify-center px-4 text-center">
+            <div class="flex h-full flex-col items-center justify-center px-4 text-center md:py-4">
                 <hgroup class="font-bold font-gotham-rounded">
                     <p class="mb-4 text-3xl md:text-5xl" style="color: #059146">
                         Praktis & Stylish
