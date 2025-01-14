@@ -2,16 +2,16 @@
 
 @section('content')
     <div class="h-screen snap-y snap-proximity overflow-auto scroll-smooth">
-        <section title="Intro" class="md:min-h-screen snap-none md:h-screen md:snap-start">
+        <section title="Intro" class="snap-none md:h-screen md:min-h-screen md:snap-start">
             @include('_partials.babygo.intro')
         </section>
-        <section title="Komitmen" class="md:min-h-screen snap-none md:h-screen md:snap-start">
+        <section title="Komitmen" class="snap-none md:h-screen md:min-h-screen md:snap-start">
             @include('_partials.babygo.komitmen')
         </section>
-        <section title="Products" class="md:min-h-screen snap-none md:h-screen md:snap-start">
+        <section title="Products" class="snap-none md:h-screen md:min-h-screen md:snap-start">
             @include('_partials.babygo.products')
         </section>
-        <section title="Contact" class="md:min-h-screen snap-none h-screen md:snap-start">
+        <section title="Contact" class="snap-none md:snap-start">
             @include('_partials.babygo.contact')
         </section>
     </div>

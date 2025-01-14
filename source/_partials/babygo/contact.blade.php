@@ -1,5 +1,12 @@
-<div class="flex h-full items-center justify-center py-4">
+<div class="flex h-full items-center justify-center py-24">
     <div class="container mx-auto px-4 text-center">
+        <div class="mb-20">
+            <a href="https://desty.page/inc.brands/babygoinc" target="_blank"
+               class="font-bold underline decoration-4 underline-offset-4"
+               style="text-decoration-color: #059146">
+                See Other babyGo Products
+            </a>
+        </div>
         <h3 class="uppercase text-md md:text-xl" style="color: #474d40">
             Visit Us
         </h3>

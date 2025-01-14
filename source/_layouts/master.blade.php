@@ -10,15 +10,15 @@
     @stack('after_styles')
 </head>
 <body class="antialiased font-gotham-rounded">
-<header class="fixed top-0 start-0 w-full p-4 md:py-14 md:px-24 z-10">
+<header class="fixed top-0 left-0 z-10 w-full p-4 md:px-24 md:py-14">
     <a href="/" class="inline-block">
         <img src="/assets/images/babygo/logo-babygo-outline.png" alt="logo babygo" class="h-auto max-w-full">
     </a>
 </header>
 @yield('content')
-<div class="fixed bottom-10 end-10 z-10">
+<div class="fixed right-8 bottom-4 z-10">
     <a href="https://wa.me/6289676717676" target="_blank">
-        <div class="size-14 rounded-full p-3" style="background-color:#25d366;">
+        <div class="rounded-full p-3 size-14" style="background-color:#25d366;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="-mt-1">
                 <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                 <path fill="#fff"

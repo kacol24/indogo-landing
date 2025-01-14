@@ -3,9 +3,9 @@
         <div class="w-full md:w-6/12">
             <img src="/assets/images/babygo/diaper-bag/banner-01.jpeg"
                  alt="mother and child sitting on a bench with a diaper bag"
-                 class="h-full max-w-full object-cover object-right">
+                 class="w-full max-w-full object-cover object-right md:h-full md:w-auto">
         </div>
-        <div class="w-full py-4 md:w-6/12 md:py-0">
+        <div class="w-full py-4 md:w-6/12">
             <div class="flex h-full flex-col items-center justify-center px-4 text-center">
                 <hgroup class="font-bold font-gotham-rounded">
                     <p class="mb-4 text-3xl md:text-5xl" style="color: #059146">

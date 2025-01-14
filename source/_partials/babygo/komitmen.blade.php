@@ -3,7 +3,7 @@
         <div class="w-full md:w-6/12">
             <img src="/assets/images/babygo/diaper-bag/banner-02.jpeg"
                  alt="mother and child sitting on a grass field with a diaper bag"
-                 class="h-full max-w-full object-cover object-right">
+                 class="w-full max-w-full object-cover object-right md:h-full md:w-auto">
         </div>
         <div class="w-full py-4 md:mt-0 md:w-6/12 md:py-0">
             <div class="flex h-full flex-col items-center justify-center px-4 text-center font-bold font-gotham-rounded">
