@@ -107,3 +107,7 @@
         font-display: swap;
     }
 }
+
+.swiper-pagination-bullet {
+    border: 2px solid white;
+}

@@ -10,6 +10,11 @@
     @stack('after_styles')
 </head>
 <body class="antialiased font-gotham-rounded">
+<header class="fixed top-0 start-0 w-full p-4 md:py-14 md:px-24 z-10">
+    <a href="/" class="inline-block">
+        <img src="/assets/images/babygo/logo-babygo-outline.png" alt="logo babygo" class="h-auto max-w-full">
+    </a>
+</header>
 @yield('content')
 
 <script src="{{ mix('js/main.js', 'assets/build') }}"></script>

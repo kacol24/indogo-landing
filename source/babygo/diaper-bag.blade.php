@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="h-screen snap-y snap-proximity overflow-auto scroll-smooth">
-        <section title="Intro" class="snap-start md:h-screen">
+        <section title="Intro" class="snap-start min-h-screen h-screen">
             <div class="container h-full w-full max-w-full">
                 <div class="flex h-full flex-col md:flex-row">
                     <div class="w-full md:w-6/12">
@@ -33,7 +33,7 @@
                 </div>
             </div>
         </section>
-        <section title="Komitmen" class="snap-start md:h-screen">
+        <section title="Komitmen" class="snap-start min-h-screen h-screen">
             <div class="container h-full w-full max-w-full">
                 <div class="flex h-full flex-col md:flex-row">
                     <div class="w-full md:w-6/12">
@@ -103,13 +103,20 @@
                 </div>
             </div>
         </section>
-        <section title="Products" class="snap-none md:h-screen md:snap-start">
+        <section title="Products" class="snap-none min-h-screen h-screen md:snap-start">
             <div class="h-full w-full"
                  style="background: url(/assets/images/babygo/bg-products.jpeg) left center; background-size: cover">
                 <div class="container mx-auto flex h-full flex-col py-4 md:flex-row md:gap-x-4">
                     <div class="flex w-full items-center justify-center md:w-6/12">
                         <div class="swiper" id="image_swiper"
-                             style="padding-bottom: 1rem;--swiper-theme-color: #059146;--swiper-pagination-bottom: 0; --swiper-pagination-bullet-inactive-color: #37a66a; --swiper-pagination-bullet-horizontal-gap: 1rem">
+                             style="padding-bottom: 2rem;
+                             --swiper-pagination-bottom: 0;
+                             --swiper-pagination-bullet-size: 12px;
+                             --swiper-pagination-color: #059146;
+                             --swiper-pagination-bullet-opacity: 1;
+                             --swiper-pagination-bullet-inactive-color: #37a66a;
+                             --swiper-pagination-bullet-inactive-opacity: 0.7;
+                             --swiper-pagination-bullet-horizontal-gap: 1rem">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide" data-hash="aeon-diaper-bag">
                                     <img src="/assets/images/babygo/diaper-bag/aeon-diaper-bag.png"
@@ -129,7 +136,7 @@
                         <div class="swiper" id="content_swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <div class="mt-4 w-full rounded-lg p-5 text-center md:mt-12"
+                                    <div class="mt-4 w-full rounded-2xl p-5 text-center md:mt-12"
                                          style="background-color:#daefe3;max-width: 625px">
                                         <h3 class="-mt-10 mb-8 text-3xl font-bold md:-mt-12 md:mb-10 md:text-5xl"
                                             style="color: #069247; text-shadow: -3px -3px 2px #fff, -3px 3px 2px #fff, 3px -3px 2px #fff, 3px 3px 2px #fff, -1px -1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff, 1px 1px 0 #fff;">
@@ -175,7 +182,7 @@
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="mt-4 w-full rounded-lg p-5 text-center md:mt-12"
+                                    <div class="mt-4 w-full rounded-2xl p-5 text-center md:mt-12"
                                          style="background-color:#daefe3;max-width: 625px">
                                         <h3 class="-mt-10 mb-8 text-3xl font-bold md:-mt-12 md:mb-10 md:text-5xl"
                                             style="color: #069247; text-shadow: -3px -3px 2px #fff, -3px 3px 2px #fff, 3px -3px 2px #fff, 3px 3px 2px #fff, -1px -1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff, 1px 1px 0 #fff;">
@@ -226,13 +233,13 @@
                 </div>
             </div>
         </section>
-        <section title="Contact" class="snap-start md:h-screen">
+        <section title="Contact" class="snap-start min-h-screen h-screen">
             <div class="flex h-full items-center justify-center py-4">
                 <div class="container mx-auto px-4 text-center">
                     <h3 class="uppercase text-md md:text-xl" style="color: #474d40">
                         Visit Us
                     </h3>
-                    <div class="mx-auto mt-4 flex max-w-3xl flex-row flex-wrap items-center justify-center gap-4 md:gap-x-12">
+                    <div class="mx-auto mt-8 flex max-w-3xl flex-row flex-wrap items-center justify-center gap-12 md:gap-x-12">
                         <div class="w-1/3 md:w-1/5">
                             <a href="https://www.instagram.com/babygoinc/" target="_blank"
                                class="flex flex-row flex-nowrap items-center">
