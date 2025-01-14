@@ -756,8 +756,8 @@ video {
 .snap-y {
   scroll-snap-type: y var(--tw-scroll-snap-strictness);
 }
-.snap-proximity {
-  --tw-scroll-snap-strictness: proximity;
+.snap-mandatory {
+  --tw-scroll-snap-strictness: mandatory;
 }
 .flex-row {
   flex-direction: row;

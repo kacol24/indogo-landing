@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('content')
-    <div class="h-screen snap-y snap-proximity overflow-auto scroll-smooth">
+    <div class="h-screen snap-y snap-mandatory overflow-auto scroll-smooth">
         <section title="Intro" class="snap-none md:h-screen md:min-h-screen md:snap-start">
             @include('_partials.babygo.intro')
         </section>

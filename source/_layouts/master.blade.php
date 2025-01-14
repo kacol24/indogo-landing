@@ -27,7 +27,7 @@
         </div>
     </a>
 </div>
-<script src="{{ mix('js/main.js', 'assets/build') }}"></script>
+{{--<script src="{{ mix('js/main.js', 'assets/build') }}"></script>--}}
 @stack('after_scripts')
 </body>
 </html>
