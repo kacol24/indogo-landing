@@ -1,4 +1,4 @@
-<div class="flex min-h-full w-full items-center justify-center py-4"
+<div class="flex md:min-h-screen w-full items-center justify-center py-4"
      style="background: url(/assets/images/babygo/bg-products.jpeg) left center; background-size: cover">
     <div class="container mx-auto font-gotham-rounded">
         <div class="swiper" id="product_swiper"

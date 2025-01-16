@@ -1,5 +1,5 @@
-<div class="container h-full w-full max-w-full pb-4 md:pb-0">
-    <div class="flex h-full flex-col md:flex-row">
+<div class="container w-full max-w-full pb-4 md:pb-0">
+    <div class="flex md:min-h-screen flex-col md:flex-row">
         <div class="w-full md:w-6/12">
             <img src="/assets/images/babygo/diaper-bag/banner-02.jpeg"
                  alt="mother and child sitting on a grass field with a diaper bag"
