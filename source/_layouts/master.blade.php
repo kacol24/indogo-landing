@@ -6,6 +6,7 @@
     <link rel="canonical" href="{{ $page->getUrl() }}">
     <meta name="description" content="{{ $page->description }}">
     <title>{{ $page->title }}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.2.4/swiper-bundle.min.css">
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     @stack('after_styles')
 </head>
@@ -28,6 +29,7 @@
 {{--    </a>--}}
 {{--</div>--}}
 {{--<script src="{{ mix('js/main.js', 'assets/build') }}"></script>--}}
+<script src="https://cdn.jsdelivr.net/npm/swiper@11.2.4/swiper-bundle.min.js"></script>
 @stack('after_scripts')
 </body>
 </html>
