@@ -7,8 +7,10 @@
         <img src="/assets/images/babygo/diaper-bag/hero-banner.jpeg" alt="hero banner"
              class="hidden h-auto w-full max-w-full md:block">
         <div class="absolute top-0 left-0 z-20 w-full py-10 text-center md:py-20">
-            <img src="/assets/images/babygo/logo@3x.png" alt="logo babygo" class="mx-auto h-12 max-w-none md:h-20">
-            <div class="mt-4 rounded-full px-6 md:py-2 py-1 font-gotham-book bg-[#fbfafb] inline-block md:text-4xl text-xl">
+            <img src="/assets/images/babygo/logo@3x.png" alt="logo babygo" class="mx-auto h-12 max-w-none md:h-20"
+                 data-aos="fade-down">
+            <div class="mt-4 rounded-full px-6 md:py-2 py-1 font-gotham-book bg-[#fbfafb] inline-block md:text-4xl text-xl"
+                 data-aos="fade-up">
                 Making parents life <strong class="font-gotham-rounded text-primary">easier</strong>
             </div>
         </div>
@@ -19,18 +21,19 @@
                 <h1 class="mb-2 text-3xl font-bold tracking-tighter font-gotham-rounded text-stroke md:md-6 md:mb-4 md:text-8xl">
                     Diaper Bag Premium
                 </h1>
-                <div class="text-lg font-bold text-body md:text-5xl">
+                <div class="text-lg font-bold text-body md:text-5xl" data-aos="fade">
                     Solusi Kebutuhan Orang Tua Modern
                 </div>
                 <div class="relative mt-10 flex items-center justify-center text-center line-decoration md:mt-14">
-                    <div class="relative z-10 mx-auto inline-block whitespace-nowrap rounded-full px-6 py-1 text-xl font-bold uppercase text-white shadow bg-gradient md:py-2 md:text-6xl">
+                    <div class="relative z-10 mx-auto inline-block whitespace-nowrap rounded-full px-6 py-1 text-xl font-bold uppercase text-white shadow bg-gradient md:py-2 md:text-6xl"
+                         data-aos="zoom-in">
                         Komitmen Babygo
                     </div>
                 </div>
                 <div class="mt-6 text-xl font-bold uppercase text-primary md:mt-8 md:text-5xl">
                     "Making Parent's Life Easier"
                 </div>
-                <div class="mx-auto mt-2 text-base max-w-[700px] text-body md:mt-3 md:text-3xl">
+                <div class="mx-auto mt-2 text-base max-w-[700px] text-body md:mt-3 md:text-3xl" data-aos="fade-up">
                     babyGo hadir dengan produk-produk
                     yang memudahkan kegiatan orang tua
                     sehari-hari dengan si Kecil.
@@ -40,49 +43,60 @@
     </section>
     <section id="features" title="Features" class="mt-4 mb-20">
         <div class="container mx-auto px-4">
-            <div class="gap-10 md:columns-3">
-                <div class="mb-4 rounded-lg p-4 shadow-lg md:mb-0">
-                    <img src="/assets/images/babygo/diaper-bag/feature-strong.jpeg" alt=""
-                         class="h-auto max-w-full rounded-lg w-100">
-                    <div class="mt-4 text-center">
-                        <div class="flex items-center justify-center">
-                            <img src="/assets/images/babygo/icons/icon-strong.png" alt="" class="h-auto w-8 max-w-full">
-                            <div class="ml-2 text-2xl font-bold uppercase text-primary md:text-3xl">
-                                Strong
+            <div class="-mx-4">
+                <div class="flex flex-wrap overflow-x-hidden py-4">
+                    <div class="mb-4 px-4 md:w-1/3 md:mb-0" data-aos="fade-right">
+                        <div class="p-4 rounded-lg shadow-lg h-full">
+                            <img src="/assets/images/babygo/diaper-bag/feature-strong.jpeg" alt=""
+                                 class="h-auto max-w-full rounded-lg w-100">
+                            <div class="mt-4 text-center">
+                                <div class="flex items-center justify-center">
+                                    <img src="/assets/images/babygo/icons/icon-strong.png" alt=""
+                                         class="h-auto w-8 max-w-full">
+                                    <div class="ml-2 text-2xl font-bold uppercase text-primary md:text-3xl">
+                                        Strong
+                                    </div>
+                                </div>
+                                <div>
+                                    Material yang kuat & tahan lama
+                                </div>
                             </div>
-                        </div>
-                        <div>
-                            Material yang kuat & tahan lama
                         </div>
                     </div>
-                </div>
-                <div class="mb-4 rounded-lg p-4 shadow-lg md:mb-0">
-                    <img src="/assets/images/babygo/diaper-bag/feature-smart.jpeg" alt=""
-                         class="h-auto max-w-full rounded-lg w-100">
-                    <div class="mt-4 text-center">
-                        <div class="flex items-center justify-center">
-                            <img src="/assets/images/babygo/icons/icon-smart.png" alt="" class="h-auto w-8 max-w-full">
-                            <div class="ml-2 text-2xl font-bold uppercase text-primary md:text-3xl">
-                                Smart
+                    <div class="mb-4 px-4 md:w-1/3 md:mb-0" data-aos="fade-right" data-aos-delay="300">
+                        <div class="p-4 rounded-lg shadow-lg h-full">
+                            <img src="/assets/images/babygo/diaper-bag/feature-smart.jpeg" alt=""
+                                 class="h-auto max-w-full rounded-lg w-100">
+                            <div class="mt-4 text-center">
+                                <div class="flex items-center justify-center">
+                                    <img src="/assets/images/babygo/icons/icon-smart.png" alt=""
+                                         class="h-auto w-8 max-w-full">
+                                    <div class="ml-2 text-2xl font-bold uppercase text-primary md:text-3xl">
+                                        Smart
+                                    </div>
+                                </div>
+                                <div>
+                                    Fitur yang memudahkan orang tua ketika bepergian
+                                </div>
                             </div>
-                        </div>
-                        <div>
-                            Fitur yang memudahkan orang tua ketika bepergian
                         </div>
                     </div>
-                </div>
-                <div class="rounded-lg p-4 shadow-lg">
-                    <img src="/assets/images/babygo/diaper-bag/feature-simple.jpeg" alt=""
-                         class="h-auto max-w-full rounded-lg w-100">
-                    <div class="mt-4 text-center">
-                        <div class="flex items-center justify-center">
-                            <img src="/assets/images/babygo/icons/icon-simple.png" alt="" class="h-auto w-8 max-w-full">
-                            <div class="ml-2 text-2xl font-bold uppercase text-primary md:text-3xl">
-                                Simple
+                    <div class="px-4 md:w-1/3" data-aos="fade-right" data-aos-delay="600">
+                        <div class="p-4 rounded-lg shadow-lg h-full">
+                            <img src="/assets/images/babygo/diaper-bag/feature-simple.jpeg" alt=""
+                                 class="h-auto max-w-full rounded-lg w-100">
+                            <div class="mt-4 text-center">
+                                <div class="flex items-center justify-center">
+                                    <img src="/assets/images/babygo/icons/icon-simple.png" alt=""
+                                         class="h-auto w-8 max-w-full">
+                                    <div class="ml-2 text-2xl font-bold uppercase text-primary md:text-3xl">
+                                        Simple
+                                    </div>
+                                </div>
+                                <div>
+                                    Unisex: Dapat dipakai Ibu maupun Ayah
+                                </div>
                             </div>
-                        </div>
-                        <div>
-                            Unisex: Dapat dipakai Ibu maupun Ayah
                         </div>
                     </div>
                 </div>
@@ -92,7 +106,8 @@
     <section class="mt-8 mb-20 md:mt-32">
         <div class="container mx-auto px-4">
             <div class="relative mb-4 flex items-center justify-center text-center md:mt-14">
-                <h2 class="relative z-10 mx-auto inline-block rounded-full px-4 py-2 text-lg font-bold uppercase text-white shadow bg-gradient md:text-6xl">
+                <h2 class="relative z-10 mx-auto inline-block rounded-full px-4 py-2 text-lg font-bold uppercase text-white shadow bg-gradient md:text-6xl"
+                    data-aos="fade-down">
                     Koleksi BabyGo Diaper Bag
                 </h2>
             </div>
@@ -149,7 +164,8 @@
         <div class="container mx-auto px-4">
             <div class="text-center">
                 <div class="text-center line-decoration">
-                    <div class="relative mx-auto inline-block whitespace-nowrap px-4 text-xl font-bold uppercase text-primary md:px-8 md:text-6xl">
+                    <div class="relative mx-auto inline-block whitespace-nowrap px-4 text-xl font-bold uppercase text-primary md:px-8 md:text-6xl"
+                         data-aos="zoom-in">
                         What They Say
                         <div class="text-lg md:text-5xl">
                             About BabyGo
@@ -195,8 +211,8 @@
             </div>
             <div class="-mx-4 mt-10">
                 <div class="flex flex-wrap justify-center gap-y-4 md:gap-y-8">
-                    <div class="w-1/2 px-4 md:w-1/4">
-                        <div class="flex flex-col justify-center">
+                    <div class="w-1/2 px-4 md:w-1/3">
+                        <div class="flex flex-col justify-center" data-aos="fade-up">
                             <div class="rounded-full border-4 border-primary">
                                 <img src="/assets/images/babygo/diaper-bag/products/diaper-bag.jpeg" alt=""
                                      class="h-auto w-full max-w-full rounded-full">
@@ -208,8 +224,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-1/2 px-4 md:w-1/4">
-                        <div class="flex flex-col justify-center">
+                    <div class="w-1/2 px-4 md:w-1/3">
+                        <div class="flex flex-col justify-center" data-aos="fade-up" data-aos-delay="100">
                             <div class="rounded-full border-4 border-primary">
                                 <img src="/assets/images/babygo/diaper-bag/products/cooler-bag.jpeg" alt=""
                                      class="h-auto w-full max-w-full rounded-full">
@@ -221,8 +237,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-1/2 px-4 md:w-1/4">
-                        <div class="flex flex-col justify-center">
+                    <div class="w-1/2 px-4 md:w-1/3">
+                        <div class="flex flex-col justify-center" data-aos="fade-up" data-aos-delay="200">
                             <div class="rounded-full border-4 border-primary">
                                 <img src="/assets/images/babygo/diaper-bag/products/organizer.jpeg" alt=""
                                      class="h-auto w-full max-w-full rounded-full">
@@ -234,8 +250,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-1/2 px-4 md:w-1/4">
-                        <div class="flex flex-col justify-center">
+                    <div class="w-1/2 px-4 md:w-1/3">
+                        <div class="flex flex-col justify-center" data-aos="fade-up" data-aos-delay="300">
                             <div class="rounded-full border-4 border-primary">
                                 <img src="/assets/images/babygo/diaper-bag/products/accessories.jpeg" alt=""
                                      class="h-auto w-full max-w-full rounded-full">
@@ -247,8 +263,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-1/2 px-4 md:w-1/4">
-                        <div class="flex flex-col justify-center">
+                    <div class="w-1/2 px-4 md:w-1/3">
+                        <div class="flex flex-col justify-center" data-aos="fade-up" data-aos-delay="400">
                             <div class="rounded-full border-4 border-primary">
                                 <img src="/assets/images/babygo/diaper-bag/products/hooks.jpeg" alt=""
                                      class="h-auto w-full max-w-full rounded-full">
@@ -267,7 +283,8 @@
     <section title="Links" class="mb-20">
         <div class="container mx-auto px-4">
             <div class="relative mb-10 flex items-center justify-center text-center line-decoration md:mt-14">
-                <div class="relative z-10 mx-auto inline-block whitespace-nowrap rounded-full px-4 py-2 text-xl font-bold uppercase text-white shadow bg-gradient md:text-6xl">
+                <div class="relative z-10 mx-auto inline-block whitespace-nowrap rounded-full px-6 py-2 text-xl font-bold uppercase text-white shadow bg-gradient md:text-5xl"
+                     data-aos="zoom-in">
                     Visit Us
                 </div>
             </div>
