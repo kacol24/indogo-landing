@@ -868,9 +868,6 @@ video {
 .justify-around {
   justify-content: space-around;
 }
-.gap-10 {
-  gap: 2.5rem;
-}
 .gap-x-1 {
   -moz-column-gap: 0.25rem;
        column-gap: 0.25rem;
@@ -1300,10 +1297,6 @@ video {
     width: 33.333333%;
   }
 
-  .md\:w-1\/4 {
-    width: 25%;
-  }
-
   .md\:w-6\/12 {
     width: 50%;
   }
@@ -1314,11 +1307,6 @@ video {
 
   .md\:max-w-14 {
     max-width: 3.5rem;
-  }
-
-  .md\:columns-3 {
-    -moz-columns: 3;
-         columns: 3;
   }
 
   .md\:grid-cols-2 {
