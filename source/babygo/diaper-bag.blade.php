@@ -1,30 +1,36 @@
 @extends('_layouts.master')
 
 @section('content')
-    <section class="gradient-decoration">
+    <section class="relative gradient-decoration">
         <img src="/assets/images/babygo/diaper-bag/hero-banner-mobile.jpeg" alt="hero banner"
              class="block h-auto w-full max-w-full md:hidden">
         <img src="/assets/images/babygo/diaper-bag/hero-banner.jpeg" alt="hero banner"
              class="hidden h-auto w-full max-w-full md:block">
+        <div class="absolute top-0 left-0 z-20 w-full py-10 text-center md:py-20">
+            <img src="/assets/images/babygo/logo@3x.png" alt="logo babygo" class="mx-auto h-12 max-w-none md:h-20">
+            <div class="mt-4 rounded-full px-6 md:py-2 py-1 font-gotham-book bg-[#fbfafb] inline-block md:text-4xl text-xl">
+                Making parents life <strong class="font-gotham-rounded text-primary">easier</strong>
+            </div>
+        </div>
     </section>
     <section id="intro" title="Intro" class="mt-10 md:mt-20">
         <div class="container mx-auto px-4">
             <div class="text-center">
-                <h1 class="mb-2 text-3xl font-bold font-gotham-rounded text-stroke md:md-6 md:text-8xl">
+                <h1 class="mb-2 text-3xl font-bold tracking-tighter font-gotham-rounded text-stroke md:md-6 md:mb-4 md:text-8xl">
                     Diaper Bag Premium
                 </h1>
                 <div class="text-lg font-bold text-body md:text-5xl">
                     Solusi Kebutuhan Orang Tua Modern
                 </div>
                 <div class="relative mt-10 flex items-center justify-center text-center line-decoration md:mt-14">
-                    <div class="relative z-10 mx-auto inline-block whitespace-nowrap rounded-full px-4 py-2 text-xl font-bold uppercase text-white shadow bg-gradient md:text-6xl">
+                    <div class="relative z-10 mx-auto inline-block whitespace-nowrap rounded-full px-6 py-1 text-xl font-bold uppercase text-white shadow bg-gradient md:py-2 md:text-6xl">
                         Komitmen Babygo
                     </div>
                 </div>
-                <div class="mt-6 text-xl font-bold uppercase text-primary md:mt-8 md:text-6xl">
+                <div class="mt-6 text-xl font-bold uppercase text-primary md:mt-8 md:text-5xl">
                     "Making Parent's Life Easier"
                 </div>
-                <div class="mx-auto mt-2 text-base max-w-[800px] text-body md:mt-3 md:text-4xl">
+                <div class="mx-auto mt-2 text-base max-w-[700px] text-body md:mt-3 md:text-3xl">
                     babyGo hadir dengan produk-produk
                     yang memudahkan kegiatan orang tua
                     sehari-hari dengan si Kecil.
@@ -40,8 +46,8 @@
                          class="h-auto max-w-full rounded-lg w-100">
                     <div class="mt-4 text-center">
                         <div class="flex items-center justify-center">
-                            <img src="/assets/images/babygo/icons/icon-strong.png" alt="" class="max-w-full h-auto w-8">
-                            <div class="text-2xl font-bold uppercase text-primary md:text-3xl ml-2">
+                            <img src="/assets/images/babygo/icons/icon-strong.png" alt="" class="h-auto w-8 max-w-full">
+                            <div class="ml-2 text-2xl font-bold uppercase text-primary md:text-3xl">
                                 Strong
                             </div>
                         </div>
@@ -55,8 +61,8 @@
                          class="h-auto max-w-full rounded-lg w-100">
                     <div class="mt-4 text-center">
                         <div class="flex items-center justify-center">
-                            <img src="/assets/images/babygo/icons/icon-smart.png" alt="" class="max-w-full h-auto w-8">
-                            <div class="text-2xl font-bold uppercase text-primary md:text-3xl ml-2">
+                            <img src="/assets/images/babygo/icons/icon-smart.png" alt="" class="h-auto w-8 max-w-full">
+                            <div class="ml-2 text-2xl font-bold uppercase text-primary md:text-3xl">
                                 Smart
                             </div>
                         </div>
@@ -69,8 +75,11 @@
                     <img src="/assets/images/babygo/diaper-bag/feature-simple.jpeg" alt=""
                          class="h-auto max-w-full rounded-lg w-100">
                     <div class="mt-4 text-center">
-                        <div class="text-xl font-bold uppercase text-primary md:text-2xl">
-                            Simple
+                        <div class="flex items-center justify-center">
+                            <img src="/assets/images/babygo/icons/icon-simple.png" alt="" class="h-auto w-8 max-w-full">
+                            <div class="ml-2 text-2xl font-bold uppercase text-primary md:text-3xl">
+                                Simple
+                            </div>
                         </div>
                         <div>
                             Unisex: Dapat dipakai Ibu maupun Ayah
@@ -80,61 +89,60 @@
             </div>
         </div>
     </section>
-    <section class="mt-8 md:mt-32 mb-20">
+    <section class="mt-8 mb-20 md:mt-32">
         <div class="container mx-auto px-4">
-            <div class="relative flex items-center justify-center text-center md:mt-14 mb-4">
+            <div class="relative mb-4 flex items-center justify-center text-center md:mt-14">
                 <h2 class="relative z-10 mx-auto inline-block rounded-full px-4 py-2 text-lg font-bold uppercase text-white shadow bg-gradient md:text-6xl">
                     Koleksi BabyGo Diaper Bag
                 </h2>
             </div>
-            <div>
-                <div class="swiper" id="product-swiper" style="--swiper-theme-color: var(--bbg-primary)">
-                    <div class="swiper-wrapper">
-                        @foreach($page->products as $product)
-                            <div class="swiper-slide">
-                                <div class="m-4 rounded-lg border p-3 shadow-lg border-primary">
-                                    <div class="grid gap-x-20 md:grid-cols-2">
-                                        <img src="{{ $product->featured_image }}" alt="{{ $product->title }}"
-                                             class="h-auto w-full max-w-full rounded-lg">
-                                        <div class="md:px-8 text-center mt-4">
-                                            <h2 class="mb-4 font-bold text-3xl text-primary md:text-6xl">
-                                                {!! $product->title !!}
-                                            </h2>
-                                            <div class="my-4 rounded-full px-2 bg-[#444f57] text-white inline-block font-medium md:text-xl text-base">
-                                                {{ $product->dimension }}
-                                            </div>
-                                            @if($product->bonus)
-                                                <div class="mt-4 text-center">
-                                                    <img src="{{ $product->bonus->image }}"
-                                                         alt="{{ $product->bonus->title }}" class="max-w-full h-auto w-80 mx-auto">
-                                                </div>
-                                            @endif
-                                            <div class="flex items-center gap-x-8 flex-col md:flex-row mt-4">
-                                                <div class="px-8 md:px-0">
-                                                    <img src="{{ $product->image }}"
-                                                         alt="thumbnail {{ $product->title }}"
-                                                         class="h-auto w-full max-w-full">
-                                                </div>
-                                                <div class="flex flex-col justify-center text-lg font-gotham-book mt-2 md:mt-0">
-                                                    Available in:
-                                                    <div class="flex justify-center gap-x-4 mt-4">
-                                                        @foreach($product->colors as $color)
-                                                            <div class="size-8 md:size-12 rounded-full"
-                                                                 style="background-color:{{ $color }};"></div>
-                                                        @endforeach
-                                                    </div>
-                                                </div>
+        </div>
+        <div class="swiper" id="product-swiper" style="--swiper-theme-color: var(--bbg-primary)">
+            <div class="swiper-wrapper">
+                @foreach($page->products as $product)
+                    <div class="swiper-slide">
+                        <div class="m-4 rounded-lg border p-3 shadow-lg border-primary">
+                            <div class="grid gap-x-20 md:grid-cols-2">
+                                <img src="{{ $product->featured_image }}" alt="{{ $product->title }}"
+                                     class="h-auto w-full max-w-full rounded-lg">
+                                <div class="text-center md:px-8">
+                                    <h2 class="mb-3 text-3xl font-bold text-primary md:text-6xl">
+                                        {!! $product->title !!}
+                                    </h2>
+                                    <div class="my-3 rounded-full px-2 bg-[#444f57] text-white inline-block font-medium md:text-xl text-base">
+                                        {{ $product->dimension }}
+                                    </div>
+                                    @if($product->bonus)
+                                        <div class="mt-3 text-center">
+                                            <img src="{{ $product->bonus->image }}"
+                                                 alt="{{ $product->bonus->title }}"
+                                                 class="mx-auto h-auto w-80 max-w-full">
+                                        </div>
+                                    @endif
+                                    <div class="mt-3 flex flex-col items-center gap-x-8 md:flex-row">
+                                        <div class="px-8 md:px-0">
+                                            <img src="{{ $product->image }}"
+                                                 alt="thumbnail {{ $product->title }}"
+                                                 class="h-auto w-full max-w-full">
+                                        </div>
+                                        <div class="mt-2 flex flex-col justify-center text-lg font-gotham-book md:mt-0">
+                                            Available in:
+                                            <div class="mt-4 flex justify-center gap-x-4">
+                                                @foreach($product->colors as $color)
+                                                    <div class="rounded-full size-8 md:size-12"
+                                                         style="background-color:{{ $color }};"></div>
+                                                @endforeach
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        @endforeach
+                        </div>
                     </div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-                </div>
+                @endforeach
             </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
     </section>
     <section title="Testimonials" id="testimonials" class="mb-10">
@@ -149,30 +157,30 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper py-20 md:py-40" id="testimonial-swiper" style="--swiper-theme-color: var(--bbg-primary)">
-                <div class="swiper-wrapper">
-                    @foreach($page->testimonials as $testimony)
-                        <div class="swiper-slide">
-                            <div class="m-4 rounded-lg bg-white p-4 shadow-lg">
-                                <div class="relative">
-                                    <img src="{{ $testimony->image }}" alt="{{ $testimony->name }} dengan BabyGo"
-                                         class="z-0 h-auto w-full max-w-full">
-                                    <div class="absolute bottom-0 left-0 z-10 flex w-full items-end justify-center -mb-1">
-                                        <div class="rounded-lg rounded-br-none rounded-bl-none bg-white px-4 py-1 text-sm font-bold text-primary md:text-xl">
-                                            {{ $testimony->name }}
-                                        </div>
+        </div>
+        <div class="py-20 swiper md:py-32" id="testimonial-swiper" style="--swiper-theme-color: var(--bbg-primary)">
+            <div class="swiper-wrapper">
+                @foreach($page->testimonials as $testimony)
+                    <div class="swiper-slide">
+                        <div class="rounded-lg bg-white p-4 shadow-lg">
+                            <div class="relative">
+                                <img src="{{ $testimony->image }}" alt="{{ $testimony->name }} dengan BabyGo"
+                                     class="z-0 h-auto w-full max-w-full">
+                                <div class="absolute bottom-0 left-0 z-10 -mb-1 flex w-full items-end justify-center">
+                                    <div class="rounded-lg rounded-br-none rounded-bl-none bg-white px-4 py-1 text-sm font-bold text-primary md:text-xl">
+                                        {{ $testimony->name }}
                                     </div>
                                 </div>
-                                <div class="text-center text-xs font-gotham-book md:text-lg mt-4">
-                                    "{!! $testimony->message !!}"
-                                </div>
+                            </div>
+                            <div class="mt-4 text-center text-xs font-gotham-book md:text-lg">
+                                "{!! $testimony->message !!}"
                             </div>
                         </div>
-                    @endforeach
-                </div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+                    </div>
+                @endforeach
             </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
     </section>
     <section title="Produk Lainnya" class="mb-20">
@@ -338,7 +346,8 @@
 @push('after_scripts')
     <script>
       new Swiper('#product-swiper', {
-        slidesPerView: 1,
+        slidesPerView: 1.2,
+        centeredSlides: true,
         navigation: {
           prevEl: '#product-swiper .swiper-button-prev',
           nextEl: '#product-swiper .swiper-button-next'

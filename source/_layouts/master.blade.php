@@ -11,9 +11,9 @@
     @stack('after_styles')
 </head>
 <body class="antialiased font-gotham-rounded text-body">
-{{--<header class="fixed top-0 left-0 z-10 w-full p-4 md:px-24 md:py-14">--}}
-{{--    <a href="/" class="inline-block">--}}
-{{--        <img src="/assets/images/babygo/logo-babygo-outline.png" alt="logo babygo" class="h-auto max-w-full">--}}
+{{--<header class="fixed top-0 left-0 z-20 w-full p-4 md:px-24 md:py-14">--}}
+{{--    <a href="" class="inline-block">--}}
+{{--        <img src="/assets/images/babygo/logo@3x.png" alt="logo babygo" class="h-auto max-w-full ">--}}
 {{--    </a>--}}
 {{--</header>--}}
 @yield('content')
