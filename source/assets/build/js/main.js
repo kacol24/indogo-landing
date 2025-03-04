@@ -11,6 +11,19 @@
 
 /***/ }),
 
+/***/ "./source/_assets/css/main.css":
+/*!*************************************!*\
+  !*** ./source/_assets/css/main.css ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./source/_assets/css/main-v2.css":
 /*!****************************************!*\
   !*** ./source/_assets/css/main-v2.css ***!
@@ -111,7 +124,8 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"/js/main": 0,
-/******/ 			"css/main-v2": 0
+/******/ 			"css/main-v2": 0,
+/******/ 			"css/main": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -161,8 +175,9 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/main-v2"], () => (__webpack_require__("./source/_assets/js/main.js")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/main-v2"], () => (__webpack_require__("./source/_assets/css/main-v2.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/main-v2","css/main"], () => (__webpack_require__("./source/_assets/js/main.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/main-v2","css/main"], () => (__webpack_require__("./source/_assets/css/main.css")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/main-v2","css/main"], () => (__webpack_require__("./source/_assets/css/main-v2.css")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
