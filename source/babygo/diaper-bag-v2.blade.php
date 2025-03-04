@@ -18,7 +18,7 @@
     <section id="intro" title="Intro" class="mt-10 md:mt-20">
         <div class="container mx-auto px-4">
             <div class="text-center">
-                <h1 class="mb-2 text-3xl font-bold tracking-tighter font-gotham-rounded text-stroke md:md-6 md:mb-4 md:text-8xl">
+                <h1 class="mb-2 text-3xl font-bold tracking-tighter font-gotham-rounded text-primary md:md-6 md:mb-4 md:text-8xl">
                     Diaper Bag Premium
                 </h1>
                 <div class="text-lg font-bold text-body md:text-5xl" data-aos="fade">
