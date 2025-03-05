@@ -135,12 +135,12 @@
                                         </div>
                                     @endif
                                     <div class="mt-3 flex flex-col items-center gap-x-8 md:flex-row">
-                                        <div class="px-8 md:px-0">
+                                        <div class="w-1/2 px-8 md:px-0">
                                             <img src="{{ $product->image }}"
                                                  alt="thumbnail {{ $product->title }}"
                                                  class="h-auto w-full max-w-full">
                                         </div>
-                                        <div class="mt-2 flex flex-col justify-center text-lg font-gotham-book md:mt-0">
+                                        <div class="mt-2 flex w-1/2 flex-col justify-center text-lg font-gotham-book md:mt-0">
                                             Available in:
                                             <div class="mt-4 flex justify-center gap-x-4">
                                                 @foreach($product->colors as $color)
