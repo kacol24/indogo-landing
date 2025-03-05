@@ -11,6 +11,7 @@ return [
         [
             'featured_image' => '/assets/images-v2/babygo/diaper-bag/aeon-diaper-bag-featured.jpeg',
             'image'          => '/assets/images-v2/babygo/diaper-bag/aeon-diaper-bag-thumb.jpeg',
+            'credit'         => 'Photo by Natasha Gracia',
             'title'          => 'Aeon<br>Diaper Bag',
             'dimension'      => 'P x L x T : 25 x 14 x 38 (cm)',
             'colors'         => [
@@ -33,7 +34,7 @@ return [
                 '#2a2925',
                 '#bd4b56',
             ],
-            'bonus' => [
+            'bonus'          => [
                 'image' => '/assets/images-v2/babygo/diaper-bag/bonus-bottle-bag-and-pampers-pouch.png',
                 'title' => 'Bonus Bottle Bag And Pampers Pouch',
             ],
@@ -48,7 +49,7 @@ return [
                 '#2a2925',
                 '#6d6844',
             ],
-            'bonus' => [
+            'bonus'          => [
                 'image' => '/assets/images-v2/babygo/diaper-bag/bonus-waterproof-changing-pad.png',
                 'title' => 'Bonus Waterproof Changing Pad',
             ],
@@ -63,7 +64,7 @@ return [
                 '#2a2925',
                 '#614f58',
             ],
-            'bonus' => [
+            'bonus'          => [
                 'image' => '/assets/images-v2/babygo/diaper-bag/bonus-mini-clear-pouch.png',
                 'title' => 'Bonus Mini Clear Pouch',
             ],
@@ -77,7 +78,7 @@ return [
                 '#29475e',
                 '#2a2925',
             ],
-            'bonus' => [
+            'bonus'          => [
                 'image' => '/assets/images-v2/babygo/diaper-bag/bonus-shoulder-strap.png',
                 'title' => 'Bonus Shoulder Strap',
             ],

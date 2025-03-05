@@ -47,7 +47,8 @@
                 <div class="flex flex-wrap overflow-x-hidden py-4">
                     <div class="mb-4 px-4 md:mb-0 md:w-1/3" data-aos="fade-right">
                         <div class="h-full rounded-lg p-4 shadow-lg">
-                            <img src="/assets/images-v2/babygo/diaper-bag/feature-strong.jpeg" alt="mom with baby wearing babygo bag"
+                            <img src="/assets/images-v2/babygo/diaper-bag/feature-strong.jpeg"
+                                 alt="mom with baby wearing babygo bag"
                                  class="h-auto max-w-full rounded-lg w-100">
                             <div class="mt-4 text-center">
                                 <div class="flex items-center justify-center">
@@ -65,7 +66,8 @@
                     </div>
                     <div class="mb-4 px-4 md:mb-0 md:w-1/3" data-aos="fade-right" data-aos-delay="300">
                         <div class="h-full rounded-lg p-4 shadow-lg">
-                            <img src="/assets/images-v2/babygo/diaper-bag/feature-smart.jpeg" alt="babygo bag with tissue pocket"
+                            <img src="/assets/images-v2/babygo/diaper-bag/feature-smart.jpeg"
+                                 alt="babygo bag with tissue pocket"
                                  class="h-auto max-w-full rounded-lg w-100">
                             <div class="mt-4 text-center">
                                 <div class="flex items-center justify-center">
@@ -83,7 +85,8 @@
                     </div>
                     <div class="px-4 md:w-1/3" data-aos="fade-right" data-aos-delay="600">
                         <div class="h-full rounded-lg p-4 shadow-lg">
-                            <img src="/assets/images-v2/babygo/diaper-bag/feature-simple.jpeg" alt="father and baby wearing babygo bag"
+                            <img src="/assets/images-v2/babygo/diaper-bag/feature-simple.jpeg"
+                                 alt="father and baby wearing babygo bag"
                                  class="h-auto max-w-full rounded-lg w-100">
                             <div class="mt-4 text-center">
                                 <div class="flex items-center justify-center">
@@ -118,8 +121,15 @@
                     <div class="swiper-slide">
                         <div class="m-4 rounded-lg border p-3 shadow-lg border-primary">
                             <div class="grid gap-x-20 md:grid-cols-2">
-                                <img src="{{ $product->featured_image }}" alt="{{ $product->title }}"
-                                     class="h-auto w-full max-w-full rounded-lg">
+                                <div class="relative">
+                                    <img src="{{ $product->featured_image }}" alt="{{ $product->title }}"
+                                         class="h-auto w-full max-w-full rounded-lg">
+                                    @if($product->credit)
+                                        <div class="absolute left-2 bottom-2 inline-block rounded-full text-white bg-[#444f57] px-4 py-1 shadow-lg text-xs font-bold">
+                                            {{ $product->credit }}
+                                        </div>
+                                    @endif
+                                </div>
                                 <div class="text-center md:px-8">
                                     <h2 class="mb-3 text-3xl font-bold text-primary md:text-6xl">
                                         {!! $product->title !!}
@@ -183,12 +193,12 @@
                                 <img src="{{ $testimony->image }}" alt="{{ $testimony->name }} dengan BabyGo"
                                      class="z-0 h-auto w-full max-w-full">
                                 <div class="absolute bottom-0 left-0 z-10 -mb-1 flex w-full items-end justify-center">
-                                    <div class="rounded-lg rounded-br-none rounded-bl-none bg-white px-4 py-1 text-sm font-bold text-primary md:text-xl">
+                                    <div class="rounded-t-lg bg-white px-4 py-0 text-sm font-bold text-primary md:text-xl">
                                         {{ $testimony->name }}
                                     </div>
                                 </div>
                             </div>
-                            <div class="mt-4 text-center text-xs font-gotham-book md:text-lg">
+                            <div class="mt-2 text-center text-xs font-gotham-book md:text-lg">
                                 "{!! $testimony->message !!}"
                             </div>
                         </div>
@@ -253,7 +263,8 @@
                     <div class="w-1/2 px-4 md:w-1/3">
                         <div class="flex flex-col justify-center" data-aos="fade-up" data-aos-delay="300">
                             <div class="rounded-full border-4 border-primary">
-                                <img src="/assets/images-v2/babygo/diaper-bag/products/accessories.jpeg" alt="accessories"
+                                <img src="/assets/images-v2/babygo/diaper-bag/products/accessories.jpeg"
+                                     alt="accessories"
                                      class="h-auto w-full max-w-full rounded-full">
                             </div>
                             <div class="-mt-4 text-center">
@@ -373,6 +384,7 @@
       new Swiper('#testimonial-swiper', {
         slidesPerView: 1.5,
         loop: true,
+        autoHeight: true,
         centeredSlides: true,
         navigation: {
           prevEl: '#testimonial-swiper .swiper-button-prev',
