@@ -8,7 +8,7 @@
     <title>{{ $page->title }}</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.2.4/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.css">
-    <link rel="stylesheet" href="{{ mix('css/main-v2.css', 'assets/build') }}">
+    <link rel="stylesheet" href="{{ mix('/babygo-v2/css/main.css', 'assets/build') }}">
     @stack('after_styles')
 </head>
 <body class="antialiased font-gotham-rounded text-body">

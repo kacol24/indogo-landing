@@ -5,12 +5,12 @@ mix.disableSuccessNotifications();
 mix.setPublicPath('source/assets/build');
 
 mix.jigsaw()
-   .js('source/_assets/js/main.js', 'js')
-   .css('source/_assets/css/main.css', 'css', [
+   // .js('source/_assets/js/main.js', 'js')
+   .css('source/_babygo/_assets/css/main.css', 'babygo/css', [
      require('postcss-import'),
      require('tailwindcss')
    ])
-   .css('source/_assets/css/main-v2.css', 'css', [
+   .css('source/_babygo-v2/assets/css/main.css', 'babygo-v2/css', [
      require('postcss-import'),
      require('tailwindcss')
    ])

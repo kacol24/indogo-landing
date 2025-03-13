@@ -1,4 +1,4 @@
-@extends('_layouts.master-v2')
+@extends('_babygo-v2.layouts.master')
 
 @section('content')
     <section class="relative gradient-decoration">

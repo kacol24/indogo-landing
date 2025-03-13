@@ -16,17 +16,17 @@
                             {{ $title }}
                         </h3>
                         @isset($dimention)
-                            <x-pill>
+                            <x-babygo.pill>
                                 Dimensi Tas
-                            </x-pill>
+                            </x-babygo.pill>
                             <div class="my-1 text-lg md:my-5 md:text-3xl" style="color: #455058">
                                 {{ $dimention }}
                             </div>
                         @endisset
                         @isset($colorSwatches)
-                            <x-pill>
+                            <x-babygo.pill>
                                 Tersedia dalam Warna
-                            </x-pill>
+                            </x-babygo.pill>
                             <div class="flex flex-row justify-center gap-x-4 mt-2.5 md:gap-x-9">
                                 {!! $colorSwatches !!}
                             </div>
