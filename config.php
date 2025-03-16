@@ -3,7 +3,7 @@
 return [
     'production'  => false,
     'baseUrl'     => '',
-    'title'       => 'Jigsaw',
+    'title'       => 'Diaper Bag – BabyGo Inc',
     'description' => 'Website description.',
     'collections' => [],
     
