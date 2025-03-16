@@ -1,13 +1,13 @@
-@extends('_babygo-v2.layouts.master')
+@extends('_layouts.master')
 
 @section('content')
     <section class="relative gradient-decoration">
-        <img src="/assets/images-v2/babygo/diaper-bag/hero-banner-mobile.jpeg" alt="hero banner"
+        <img src="/assets/images/babygo/diaper-bag/hero-banner-mobile.jpeg" alt="hero banner"
              class="block h-auto w-full max-w-full md:hidden">
-        <img src="/assets/images-v2/babygo/diaper-bag/hero-banner.jpeg" alt="hero banner"
+        <img src="/assets/images/babygo/diaper-bag/hero-banner.jpeg" alt="hero banner"
              class="hidden h-auto w-full max-w-full md:block">
         <div class="absolute top-0 left-0 z-20 w-full py-10 text-center md:py-20">
-            <img src="/assets/images-v2/babygo/logo@3x.png" alt="logo babygo" class="mx-auto h-12 max-w-none md:h-20"
+            <img src="/assets/images/babygo/logo@3x.png" alt="logo babygo" class="mx-auto h-12 max-w-none md:h-20"
                  data-aos="fade-down">
             <div class="mt-4 rounded-full px-6 md:py-2 py-1 font-gotham-book bg-[#fbfafb] inline-block md:text-4xl text-xl"
                  data-aos="fade-up">
@@ -47,12 +47,12 @@
                 <div class="flex flex-wrap overflow-x-hidden py-4">
                     <div class="mb-4 px-4 md:mb-0 md:w-1/3" data-aos="fade-right">
                         <div class="h-full rounded-lg p-4 shadow-lg">
-                            <img src="/assets/images-v2/babygo/diaper-bag/feature-strong.jpeg"
+                            <img src="/assets/images/babygo/diaper-bag/feature-strong.jpeg"
                                  alt="mom with baby wearing babygo bag"
                                  class="h-auto max-w-full rounded-lg w-100">
                             <div class="mt-4 text-center">
                                 <div class="flex items-center justify-center">
-                                    <img src="/assets/images-v2/babygo/icons/icon-strong.png" alt="icon gear"
+                                    <img src="/assets/images/babygo/icons/icon-strong.png" alt="icon gear"
                                          class="h-auto w-8 max-w-full">
                                     <div class="ml-2 text-2xl font-bold uppercase text-primary md:text-3xl">
                                         Strong
@@ -66,12 +66,12 @@
                     </div>
                     <div class="mb-4 px-4 md:mb-0 md:w-1/3" data-aos="fade-right" data-aos-delay="300">
                         <div class="h-full rounded-lg p-4 shadow-lg">
-                            <img src="/assets/images-v2/babygo/diaper-bag/feature-smart.jpeg"
+                            <img src="/assets/images/babygo/diaper-bag/feature-smart.jpeg"
                                  alt="babygo bag with tissue pocket"
                                  class="h-auto max-w-full rounded-lg w-100">
                             <div class="mt-4 text-center">
                                 <div class="flex items-center justify-center">
-                                    <img src="/assets/images-v2/babygo/icons/icon-smart.png" alt="icon lightbulb"
+                                    <img src="/assets/images/babygo/icons/icon-smart.png" alt="icon lightbulb"
                                          class="h-auto w-8 max-w-full">
                                     <div class="ml-2 text-2xl font-bold uppercase text-primary md:text-3xl">
                                         Smart
@@ -85,12 +85,12 @@
                     </div>
                     <div class="px-4 md:w-1/3" data-aos="fade-right" data-aos-delay="600">
                         <div class="h-full rounded-lg p-4 shadow-lg">
-                            <img src="/assets/images-v2/babygo/diaper-bag/feature-simple.jpeg"
+                            <img src="/assets/images/babygo/diaper-bag/feature-simple.jpeg"
                                  alt="father and baby wearing babygo bag"
                                  class="h-auto max-w-full rounded-lg w-100">
                             <div class="mt-4 text-center">
                                 <div class="flex items-center justify-center">
-                                    <img src="/assets/images-v2/babygo/icons/icon-simple.png" alt="icon flower"
+                                    <img src="/assets/images/babygo/icons/icon-simple.png" alt="icon flower"
                                          class="h-auto w-8 max-w-full">
                                     <div class="ml-2 text-2xl font-bold uppercase text-primary md:text-3xl">
                                         Simple
@@ -224,7 +224,7 @@
                     <div class="w-1/2 px-4 md:w-1/3">
                         <div class="flex flex-col justify-center" data-aos="fade-up">
                             <div class="rounded-full border-4 border-primary">
-                                <img src="/assets/images-v2/babygo/diaper-bag/products/diaper-bag.jpeg" alt="diaper bag"
+                                <img src="/assets/images/babygo/diaper-bag/products/diaper-bag.jpeg" alt="diaper bag"
                                      class="h-auto w-full max-w-full rounded-full">
                             </div>
                             <div class="-mt-4 text-center">
@@ -237,7 +237,7 @@
                     <div class="w-1/2 px-4 md:w-1/3">
                         <div class="flex flex-col justify-center" data-aos="fade-up" data-aos-delay="100">
                             <div class="rounded-full border-4 border-primary">
-                                <img src="/assets/images-v2/babygo/diaper-bag/products/cooler-bag.jpeg" alt="cooler bag"
+                                <img src="/assets/images/babygo/diaper-bag/products/cooler-bag.jpeg" alt="cooler bag"
                                      class="h-auto w-full max-w-full rounded-full">
                             </div>
                             <div class="-mt-4 text-center">
@@ -250,7 +250,7 @@
                     <div class="w-1/2 px-4 md:w-1/3">
                         <div class="flex flex-col justify-center" data-aos="fade-up" data-aos-delay="200">
                             <div class="rounded-full border-4 border-primary">
-                                <img src="/assets/images-v2/babygo/diaper-bag/products/organizer.jpeg" alt="organizer"
+                                <img src="/assets/images/babygo/diaper-bag/products/organizer.jpeg" alt="organizer"
                                      class="h-auto w-full max-w-full rounded-full">
                             </div>
                             <div class="-mt-4 text-center">
@@ -263,7 +263,7 @@
                     <div class="w-1/2 px-4 md:w-1/3">
                         <div class="flex flex-col justify-center" data-aos="fade-up" data-aos-delay="300">
                             <div class="rounded-full border-4 border-primary">
-                                <img src="/assets/images-v2/babygo/diaper-bag/products/accessories.jpeg"
+                                <img src="/assets/images/babygo/diaper-bag/products/accessories.jpeg"
                                      alt="accessories"
                                      class="h-auto w-full max-w-full rounded-full">
                             </div>
@@ -277,7 +277,7 @@
                     <div class="w-1/2 px-4 md:w-1/3">
                         <div class="flex flex-col justify-center" data-aos="fade-up" data-aos-delay="400">
                             <div class="rounded-full border-4 border-primary">
-                                <img src="/assets/images-v2/babygo/diaper-bag/products/hooks.jpeg" alt="hooks"
+                                <img src="/assets/images/babygo/diaper-bag/products/hooks.jpeg" alt="hooks"
                                      class="h-auto w-full max-w-full rounded-full">
                             </div>
                             <div class="-mt-4 text-center">
@@ -304,7 +304,7 @@
                     <div class="px-4 md:w-1/3">
                         <a href="https://www.instagram.com/babygoinc/" target="_blank"
                            class="flex w-full items-center rounded-full bg-white px-5 py-3 text-2xl no-underline shadow transition hover:bg-gray-50">
-                            <img src="/assets/images-v2/babygo/icons/icon-instagram.png" alt="instagram icon"
+                            <img src="/assets/images/babygo/icons/icon-instagram.png" alt="instagram icon"
                                  class="h-auto w-7 max-w-full">
                             <div class="ml-4">
                                 @babygoinc
@@ -314,7 +314,7 @@
                     <div class="px-4 md:w-1/3">
                         <a href="https://babygoinc.com/" target="_blank"
                            class="flex w-full items-center rounded-full bg-white px-5 py-3 text-2xl no-underline shadow transition hover:bg-gray-50">
-                            <img src="/assets/images-v2/babygo/icons/icon-web.png" alt="web icon"
+                            <img src="/assets/images/babygo/icons/icon-web.png" alt="web icon"
                                  class="h-auto w-7 max-w-full">
                             <div class="ml-4">
                                 www.babygoinc.com
@@ -324,7 +324,7 @@
                     <div class="px-4 md:w-1/3">
                         <a href="https://www.tiktok.com/@babygo.inc" target="_blank"
                            class="flex w-full items-center rounded-full bg-white px-5 py-3 text-2xl no-underline shadow transition hover:bg-gray-50">
-                            <img src="/assets/images-v2/babygo/icons/icon-tiktok.png" alt="tiktok icon"
+                            <img src="/assets/images/babygo/icons/icon-tiktok.png" alt="tiktok icon"
                                  class="h-auto w-7 max-w-full">
                             <div class="ml-4">
                                 @babygo.inc
@@ -334,7 +334,7 @@
                     <div class="px-4 md:w-1/3">
                         <a href="https://www.youtube.com/@BabyGo-inc" target="_blank"
                            class="flex w-full items-center rounded-full bg-white px-5 py-3 text-2xl no-underline shadow transition hover:bg-gray-50">
-                            <img src="/assets/images-v2/babygo/icons/icon-youtube.png" alt="youtube icon"
+                            <img src="/assets/images/babygo/icons/icon-youtube.png" alt="youtube icon"
                                  class="h-auto w-7 max-w-full">
                             <div class="ml-4">
                                 Youtube
@@ -344,21 +344,21 @@
                     <div class="px-4 md:w-1/3">
                         <a href="https://id.shp.ee/V9Dw4qu" target="_blank"
                            class="flex w-full items-center justify-center rounded-full bg-white px-5 py-3 text-2xl no-underline shadow transition hover:bg-gray-50">
-                            <img src="/assets/images-v2/babygo/icons/icon-shopee.png" alt="shopee icon"
+                            <img src="/assets/images/babygo/icons/icon-shopee.png" alt="shopee icon"
                                  class="h-7 w-auto">
                         </a>
                     </div>
                     <div class="px-4 md:w-1/3">
                         <a href="https://www.tokopedia.com/incbrands" target="_blank"
                            class="flex w-full items-center justify-center rounded-full bg-white px-5 py-3 text-2xl no-underline shadow transition hover:bg-gray-50">
-                            <img src="/assets/images-v2/babygo/icons/icon-tokopedia.png" alt="tokopedia icon"
+                            <img src="/assets/images/babygo/icons/icon-tokopedia.png" alt="tokopedia icon"
                                  class="h-7 w-auto">
                         </a>
                     </div>
                     <div class="px-4 md:w-1/3">
                         <a href="https://wa.me/6289676717676" target="_blank"
                            class="flex w-full items-center rounded-full bg-white px-5 py-3 text-2xl no-underline shadow transition hover:bg-gray-50">
-                            <img src="/assets/images-v2/babygo/icons/icon-whatsapp.png" alt="whatsapp icon"
+                            <img src="/assets/images/babygo/icons/icon-whatsapp.png" alt="whatsapp icon"
                                  class="h-auto w-7 max-w-full">
                             <div class="ml-4">
                                 WhatsApp
