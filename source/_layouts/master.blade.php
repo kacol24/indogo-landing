@@ -20,6 +20,11 @@
 </head>
 <body class="antialiased font-gotham-rounded text-body">
 @yield('content')
+<div class="fixed z-30 bottom-4 right-4">
+    <a href="https://wa.me/{{ $page->whatsapp_no }}" target="_blank">
+        <img src="/assets/images/icons/icon-whatsapp-opaque.png" alt="icon whatsapp" class="w-12">
+    </a>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11.2.4/swiper-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"></script>
 <script>

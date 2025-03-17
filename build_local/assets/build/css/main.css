@@ -635,6 +635,9 @@ video {
     max-width: 1536px;
   }
 }
+.fixed {
+  position: fixed;
+}
 .absolute {
   position: absolute;
 }
@@ -647,11 +650,17 @@ video {
 .bottom-2 {
   bottom: 0.5rem;
 }
+.bottom-20 {
+  bottom: 5rem;
+}
 .left-0 {
   left: 0px;
 }
 .left-2 {
   left: 0.5rem;
+}
+.right-4 {
+  right: 1rem;
 }
 .top-0 {
   top: 0px;
@@ -664,6 +673,9 @@ video {
 }
 .z-20 {
   z-index: 20;
+}
+.z-30 {
+  z-index: 30;
 }
 .m-4 {
   margin: 1rem;
@@ -758,6 +770,9 @@ video {
 }
 .w-1\/2 {
   width: 50%;
+}
+.w-12 {
+  width: 3rem;
 }
 .w-7 {
   width: 1.75rem;
