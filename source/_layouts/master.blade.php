@@ -22,7 +22,7 @@
 @yield('content')
 <div class="fixed z-30 bottom-4 right-4">
     <a href="https://wa.me/{{ $page->whatsapp_no }}" target="_blank">
-        <img src="/assets/images/icons/icon-whatsapp-opaque.png" alt="icon whatsapp" class="w-12">
+        <img src="assets/images/icons/icon-whatsapp-opaque.png" alt="icon whatsapp" class="w-12">
     </a>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11.2.4/swiper-bundle.min.js"></script>
