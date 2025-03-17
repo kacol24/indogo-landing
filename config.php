@@ -4,7 +4,7 @@ return [
     'production'  => false,
     'baseUrl'     => '',
     'title'       => 'Diaper Bag – BabyGo Inc',
-    'description' => 'Website description.',
+    'description' => 'BabyGo menyediakan produk untuk memudahkan kegiatan orang tua dengan si Kecil. Diaper Bag Premium kami menawarkan solusi kebutuhan orang tua modern dengan material kuat, fitur pintar, dan desain unisex. Temukan koleksi tas kami seperti Aeon, Harley, Luna, Zoey, dan Nema.',
     'collections' => [],
     
     'products' => [
