@@ -115,4 +115,154 @@ return [
             'message' => 'Enak banget pake tas gini ya, kalau anak anak minta sesuatu, ambilnya cepet. Ringan, banyak sekat, bisa di taruh stroller',
         ],
     ],
+    
+    'cooler_bag' => [
+        'products' => [
+            [
+                'featured_image' => 'assets/images/hanzel-cooler-bag-model.jpeg',
+                'image' => 'assets/images/hanzel-cooler-bag.png',
+                'title' => 'Hanzel<br>Cooler Bag',
+                'has_laptop' => true,
+                'dimension' => [
+                    'Dimensions Bag' => 'L x W x H : 27 x 19 x 42 (cm)',
+                    'Dimensions Cooler Bag' => 'L xW x H : 23 x 13 x 17 (cm)',
+                ],
+                'colors' => [
+                    '#29465e',
+                    '#2a2924',
+                    '#b64a55',
+                ],
+                'bonus' => [
+                    [
+                        'image' => 'assets/images/bonus-ice-gel.png',
+                        'title' => 'Bonus Ice Gel Pack 500gr',
+                    ],
+                    [
+                        'image' => 'assets/images/bonus-mini-cooler-bag.png',
+                        'title' => 'Mini Cooler Bag',
+                    ],
+                ],
+            ],
+            [
+                'featured_image' => 'assets/images/luca-cooler-bag-model.jpeg',
+                'image' => 'assets/images/luca-cooler-bag.png',
+                'title' => 'Luca<br>Cooler Bag',
+                'has_laptop' => true,
+                'dimension' => [
+                    'Dimensions Bag' => 'L x W x H : 30 x 22 x 41 (cm)',
+                    'Dimensions Cooler Bag' => 'L xW x H : 23 x 13 x 17 (cm)',
+                ],
+                'colors' => [
+                    '#29465e',
+                    '#2a2924',
+                    '#6c6844',
+                ],
+                'bonus' => [
+                    [
+                        'image' => 'assets/images/bonus-ice-gel.png',
+                        'title' => 'Bonus Ice Gel Pack 500gr',
+                    ],
+                    [
+                        'image' => 'assets/images/bonus-mini-cooler-bag-2.png',
+                        'title' => 'Mini Cooler Bag',
+                    ],
+                ],
+            ],
+            [
+                'featured_image' => 'assets/images/tote-cooler-bag-model.jpeg',
+                'image' => 'assets/images/tote-cooler-bag.png',
+                'credit' => 'Photo by Mom Sherla',
+                'title' => 'Tote<br>Cooler Bag',
+                'dimension' => 'L x W x H : 30 x 22 x 41 (cm)',
+                'colors' => [
+                    '#29465e',
+                    '#2a2924',
+                ],
+                'bonus' => [
+                    [
+                        'image' => 'assets/images/bonus-ice-gel.png',
+                        'title' => 'Bonus Ice Gel Pack 500gr',
+                    ],
+                    [
+                        'image' => 'assets/images/bonus-shoulder-strap.png',
+                        'title' => 'Shoulder Strap',
+                    ],
+                ],
+            ],
+            [
+                'featured_image' => 'assets/images/neo-cooler-bag-model.jpeg',
+                'image' => 'assets/images/neo-cooler-bag.png',
+                'title' => 'Neo<br>Cooler Bag',
+                'dimension' => 'L x W x H : 26 x 16 x 26 (cm)',
+                'colors' => [
+                    '#2a2924',
+                    [
+                        '#7b8080',
+                        '#87543e'
+                    ],
+                ],
+                'bonus' => [
+                    [
+                        'image' => 'assets/images/bonus-ice-gel.png',
+                        'title' => 'Bonus Ice Gel Pack 500gr',
+                    ],
+                    [
+                        'image' => 'assets/images/bonus-shoulder-strap-2.png',
+                        'title' => 'Shoulder Strap',
+                    ],
+                ],
+            ],
+            [
+                'featured_image' => 'assets/images/coco-cooler-bag-model.jpeg',
+                'image' => 'assets/images/coco-cooler-bag.png',
+                'title' => 'Coco<br>Cooler Bag',
+                'dimension' => 'L x W x H : 27 x 13 x 29 (cm)',
+                'colors' => [
+                    '#2a2924',
+                    '#29465e',
+                ],
+                'bonus' => [
+                    [
+                        'image' => 'assets/images/bonus-ice-gel.png',
+                        'title' => 'Bonus Ice Gel Pack 500gr',
+                    ],
+                    [
+                        'image' => 'assets/images/bonus-shoulder-strap-3.png',
+                        'title' => 'Shoulder Strap',
+                    ],
+                ],
+                'after_image' => [
+                    'image' => 'assets/images/3-in-1-use.png',
+                ],
+            ],
+        ],
+    
+        'testimonials' => [
+            [
+                'image' => 'assets/images/testimony-ricka-atmadja.jpeg',
+                'name' => 'Ricka Puspita Atmadja',
+                'message' => 'Buat working Moms yg lagi cari diaper bag SEKALIGUS cooler bag DAN bisa bawa laptop juga, nih aku kenalin tas merk <strong class="text-primary">babyGo Hanzel Cooler Backpack</strong>😍 Cocok untuk yang mau traveling sambil kerja & pumping',
+            ],
+            [
+                'image' => 'assets/images/testimony-yovita-lesmana.jpeg',
+                'name' => 'Yovita Lesmana & Husband',
+                'message' => 'Punya anak, dua pula, ga bakal bisa apa apa semua sendiri. Butuh bantuan suami pastinya untuk membawa barang-barang. Aku beli <strong class="text-primary">babyGo Luca Cooler Bag</strong>. Ada Laptop compartment, bisa digantung di stroller dan ada mini cooler bag buat simpan ASIP. High quality, chic & stylish😍',
+            ],
+            [
+                'image' => 'assets/images/testimony-varencia-law.jpeg',
+                'name' => 'Verencia Law',
+                'message' => 'Lately lagi suka bgt pake <strong class="text-primary">babyGo Tote Cooler Bag</strong>. Se-kepake itu. muat banyak poll, alat pump- ing, nursing cover, ASIP beku, semua bisa mashokk! Worth to buy',
+            ],
+            [
+                'image' => 'assets/images/testimony-marlisa-abigail.jpeg',
+                'name' => 'Marlisa Abigail',
+                'message' => 'Mama Eping kalo kemana mana bawanya ya Cooler Bag. Ini <strong class="text-primary">babyGo Neo Cooler Bag</strong>. Modelnya simple dan elegan. Spacy! Muat banyak. Thermal nya di lapisi lagi sama plas- tik, jadinya ga rembes bag nya. Bahanya tebal dan kuat',
+            ],
+            [
+                'image' => 'assets/images/testimony-ayudhya-ghita.jpeg',
+                'name' => 'Ayudhya Ghita',
+                'message' => 'Yang perlu cooler bag kecil, ringkes, bisa jadi selempang bisa jadi ransel, dan bentuknya tipis kalo ga ada isinya, warnanya simple, bisa ngelirik ke <strong class="text-primary">babyGo Coco Cooler Bag</strong>. Banyak kantongnya. Kantong yang ada termalnya bisa buat taruh alat pompa + 2 ice gel',
+            ],
+        ],
+    ],
 ];

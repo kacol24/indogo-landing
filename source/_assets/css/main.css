@@ -155,13 +155,13 @@
     background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 1) 100%);
 }
 
-#testimonial-swiper .swiper-slide {
+.swiper--blur .swiper-slide {
     position: relative;
     filter: blur(4px);
     transition: filter 200ms, transform 200ms;
 }
 
-#testimonial-swiper .swiper-slide:after {
+.swiper--blur .swiper-slide:after {
     position: absolute;
     top: 0;
     left: 0;
@@ -174,13 +174,20 @@
     opacity: 1;
 }
 
-#testimonial-swiper .swiper-slide.swiper-slide-active {
+.swiper--blur .swiper-slide.swiper-slide-active,
+.swiper--blur-expanded .swiper-slide.swiper-slide-next,
+.swiper--blur-expanded .swiper-slide.swiper-slide-prev {
     filter: none;
-    transform: scale(1.3);
+}
+
+.swiper--blur .swiper-slide.swiper-slide-active {
+    transform: scale(1.2);
     z-index: 10;
 }
 
-#testimonial-swiper .swiper-slide.swiper-slide-active:after {
+.swiper--blur .swiper-slide.swiper-slide-active:after,
+.swiper--blur-expanded .swiper-slide.swiper-slide-next:after,
+.swiper--blur-expanded .swiper-slide.swiper-slide-prev:after {
     opacity: 0;
 }
 
