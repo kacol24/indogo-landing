@@ -1,5 +1,7 @@
 @extends('_layouts.master')
 
+@section('site_title', 'Diaper Bag')
+
 @section('content')
     <section class="relative gradient-decoration">
         <img src="assets/images/hero-banner-mobile.jpeg" alt="hero banner"
