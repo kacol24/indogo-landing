@@ -4,9 +4,9 @@
 
 @section('content')
     <section class="relative gradient-decoration">
-        <img src="assets/images/hero-banner-mobile.jpeg" alt="hero banner"
+        <img src="assets/images/hero-banner-cooler-bag-mobile.jpeg" alt="hero banner"
              class="block h-auto w-full max-w-full md:hidden">
-        <img src="assets/images/hero-banner.jpeg" alt="hero banner"
+        <img src="assets/images/hero-banner-cooler-bag.jpeg" alt="hero banner"
              class="hidden h-auto w-full max-w-full md:block">
         <div class="absolute top-0 left-0 z-20 w-full py-10 text-center md:py-20">
             <img src="assets/images/logo@3x.png" alt="logo babygo" class="mx-auto h-12 max-w-none md:h-20"
@@ -195,7 +195,10 @@
                                             </div>
                                         @else
                                             @foreach($product->dimension as $key => $dimension)
-                                                <div class="text-center border border-[#444f57] text-[#444f57] md:text-lg text-base">
+                                                <div @class([
+                                                    'text-center border border-[#444f57] text-[#444f57] md:text-lg text-base',
+                                                    'mb-4' => ! $loop->last,
+                                                ])>
                                                     <div class="bg-[#444f57] block text-white py-2">
                                                         {{ $key }}
                                                     </div>
@@ -210,7 +213,7 @@
                                         <div class="text-center">
                                             @if($product->bonus)
                                                 @foreach($product->bonus as $bonus)
-                                                    <div class="mb-4 text-center">
+                                                    <div class="mb-4 text-center px-8">
                                                         <img src="{{ $bonus->image }}"
                                                              alt="{{ $bonus->title }}"
                                                              class="mx-auto h-auto w-80 max-w-full">
@@ -242,7 +245,7 @@
                                         </div>
                                         <div>
                                             @if($product->has_laptop)
-                                                <div class="mb-4 mt-8 mb-8">
+                                                <div class="mb-4 mt-8">
                                                     <div class="rounded-full border border-[#6da333] px-4 py-2 flex flex-row items-center gap-x-2">
                                                         <div class="max-w-[40px]">
                                                             <img src="assets/images/icons/icon-laptop.png"
@@ -254,7 +257,7 @@
                                                     </div>
                                                 </div>
                                             @endif
-                                            <div class="px-4">
+                                            <div class="px-4 mt-8">
                                                 <img src="{{ $product->image }}"
                                                      alt="thumbnail {{ $product->title }}"
                                                      class="h-auto w-full max-w-full">

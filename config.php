@@ -81,7 +81,7 @@ return [
                 '#2a2925',
             ],
             'bonus'          => [
-                'image' => 'assets/images/bonus-shoulder-strap.png',
+                'image' => 'assets/images/bonus-shoulder-strap-1.png',
                 'title' => 'Bonus Shoulder Strap',
             ],
         ],
@@ -184,7 +184,7 @@ return [
                         'title' => 'Bonus Ice Gel Pack 500gr',
                     ],
                     [
-                        'image' => 'assets/images/bonus-shoulder-strap.png',
+                        'image' => 'assets/images/bonus-shoulder-strap-1.png',
                         'title' => 'Shoulder Strap',
                     ],
                 ],
