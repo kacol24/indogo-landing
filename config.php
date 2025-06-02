@@ -85,6 +85,44 @@ return [
                 'title' => 'Bonus Shoulder Strap',
             ],
         ],
+        [
+            'featured_image' => 'assets/images/kate-tote-diaper-bag-model.jpeg',
+            'image' => 'assets/images/kate-tote-diaper-bag.png',
+            'title' => 'Kate Tote<br>Diaper Bag',
+            'dimension' => 'P x L x T : 38.5 x 14.5 x 29.5 (cm)',
+            'colors' => [
+                '#29475e',
+                '#2a2925',
+            ],
+            'bonus' => [
+                [
+                    'image' => 'assets/images/bonus-waterproof-changing-pad.png',
+                    'title' => 'Bonus Waterproof Changing Pad',
+                ],
+                [
+                    'image' => 'assets/images/bonus-shoulder-strap-kate-tote-diaper-bag.png',
+                    'title' => 'Bonus Shoulder Strap',
+                ],
+                [
+                    'image' => 'assets/images/kate-tote-diaper-bag-3-in-1.png',
+                    'title' => '3 in 1 Use',
+                ],
+            ],
+        ],
+        [
+            'featured_image' => 'assets/images/taylor-diaper-bag-model.jpeg',
+            'image' => 'assets/images/taylor-diaper-bag.png',
+            'title' => 'Taylor<br>Diaper Bag',
+            'dimension' => 'P x L x T : 28 x 12 x 34 (cm)',
+            'colors' => [
+                '#29475e',
+                '#2a2925',
+            ],
+            'bonus' => [
+                'image' => 'assets/images/bonus-waterproof-changing-pad.png',
+                'title' => 'Bonus Waterproof Changing Pad',
+            ],
+        ],
     ],
     
     'testimonials' => [
@@ -113,6 +151,16 @@ return [
             'image'   => 'assets/images/testimonials/testi-05.jpeg',
             'name'    => 'Yovie Agustine',
             'message' => 'Enak banget pake tas gini ya, kalau anak anak minta sesuatu, ambilnya cepet. Ringan, banyak sekat, bisa di taruh stroller',
+        ],
+        [
+            'image' => 'assets/images/testimonials/testi-06.jpeg',
+            'name' => 'Desi Listiani',
+            'message' => 'Tas baby yang muat banyak. Aku baru coba dan ternyata suka SUKAAA BANGET! Ini diaper bag Kate black nya babyGo yang punya banyak compartment terus luass gede, mau ambil apa-apa gampang. Udah dapet diaper changing pad. Tas nya juga 3in1, jadi bisa tetep stylish kemana-mana hihi SUKA BANGET DEH!',
+        ],
+        [
+            'image' => 'assets/images/testimonials/testi-07.jpeg',
+            'name' => 'Siauw Rouline Janiz',
+            'message' => 'Mom’s hack: find a diaper bag with WIPES ACCESS for a QUICK CLEANUP, like this babyGo Taylor Backpack! It’s stylish & practical, and built to last',
         ],
     ],
     

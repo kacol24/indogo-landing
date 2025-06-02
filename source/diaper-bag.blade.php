@@ -139,29 +139,61 @@
                                     <div class="my-3 rounded-full px-2 bg-[#444f57] text-white inline-block font-medium md:text-xl text-base">
                                         {{ $product->dimension }}
                                     </div>
-                                    @if($product->bonus)
-                                        <div class="mt-3 text-center">
-                                            <img src="{{ $product->bonus->image }}"
-                                                 alt="{{ $product->bonus->title }}"
-                                                 class="mx-auto h-auto w-80 max-w-full">
-                                        </div>
-                                    @endif
-                                    <div class="mt-3 flex flex-col items-center gap-x-8 md:flex-row">
-                                        <div class="w-1/2 px-8 md:px-0">
-                                            <img src="{{ $product->image }}"
-                                                 alt="thumbnail {{ $product->title }}"
-                                                 class="h-auto w-full max-w-full">
-                                        </div>
-                                        <div class="mt-2 flex w-1/2 flex-col justify-center text-lg font-gotham-book md:mt-0">
-                                            Available in:
-                                            <div class="mt-4 flex justify-center gap-x-4">
-                                                @foreach($product->colors as $color)
-                                                    <div class="rounded-full size-8 md:size-12"
-                                                         style="background-color:{{ $color }};"></div>
+                                    @if(count($product->bonus) > 2)
+                                        <div class="mt-3 flex flex-col md:flex-row md:gap-x-4">
+                                            <div class="md:w-1/2">
+                                                @foreach($product->bonus as $bonus)
+                                                    <div class="mb-3 text-center">
+                                                        <img src="{{ $bonus->image }}"
+                                                             alt="{{ $bonus->title }}"
+                                                             class="mx-auto h-auto w-80 max-w-full">
+                                                    </div>
                                                 @endforeach
                                             </div>
+                                            <div class="md:w-1/2">
+                                                <div class="flex flex-col items-center">
+                                                    <div class="">
+                                                        <img src="{{ $product->image }}"
+                                                             alt="thumbnail {{ $product->title }}"
+                                                             class="h-auto w-full max-w-full">
+                                                    </div>
+                                                    <div class="mt-3 flex flex-col justify-center text-lg font-gotham-book md:mt-0">
+                                                        Available in:
+                                                        <div class="mt-4 flex justify-center gap-x-4">
+                                                            @foreach($product->colors as $color)
+                                                                <div class="rounded-full size-8 md:size-12"
+                                                                     style="background-color:{{ $color }};"></div>
+                                                            @endforeach
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    @else
+                                        @if($product->bonus)
+                                            <div class="mt-3 text-center">
+                                                <img src="{{ $product->bonus->image }}"
+                                                     alt="{{ $product->bonus->title }}"
+                                                     class="mx-auto h-auto w-80 max-w-full">
+                                            </div>
+                                        @endif
+                                        <div class="mt-3 flex flex-col items-center gap-x-8 md:flex-row">
+                                            <div class="w-1/2 px-8 md:px-0">
+                                                <img src="{{ $product->image }}"
+                                                     alt="thumbnail {{ $product->title }}"
+                                                     class="h-auto w-full max-w-full">
+                                            </div>
+                                            <div class="mt-2 flex w-1/2 flex-col justify-center text-lg font-gotham-book md:mt-0">
+                                                Available in:
+                                                <div class="mt-4 flex justify-center gap-x-4">
+                                                    @foreach($product->colors as $color)
+                                                        <div class="rounded-full size-8 md:size-12"
+                                                             style="background-color:{{ $color }};"></div>
+                                                    @endforeach
+                                                </div>
+                                            </div>
+                                        </div>
+                                    @endif
                                 </div>
                             </div>
                         </div>
@@ -186,7 +218,7 @@
                 </div>
             </div>
         </div>
-        <div class="py-20 swiper md:py-32" id="testimonial-swiper" style="--swiper-theme-color: var(--bbg-primary)">
+        <div class="py-20 swiper swiper--blur md:py-32" id="testimonial-swiper" style="--swiper-theme-color: var(--bbg-primary)">
             <div class="swiper-wrapper">
                 @foreach($page->testimonials as $testimony)
                     <div class="swiper-slide">
@@ -265,6 +297,19 @@
                     <div class="w-1/2 px-4 md:w-1/3">
                         <div class="flex flex-col justify-center" data-aos="fade-up" data-aos-delay="300">
                             <div class="rounded-full border-4 border-primary">
+                                <img src="assets/images/babygo-bottle-bag.jpeg" alt="bottle bag"
+                                     class="h-auto w-full max-w-full rounded-full">
+                            </div>
+                            <div class="-mt-4 text-center">
+                                <div class="inline-block rounded-full px-4 py-1 text-lg font-bold text-white bg-gradient md:text-2xl">
+                                    Bottle Bag
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-1/2 px-4 md:w-1/3">
+                        <div class="flex flex-col justify-center" data-aos="fade-up" data-aos-delay="400">
+                            <div class="rounded-full border-4 border-primary">
                                 <img src="assets/images/products/accessories.jpeg"
                                      alt="accessories"
                                      class="h-auto w-full max-w-full rounded-full">
@@ -277,7 +322,7 @@
                         </div>
                     </div>
                     <div class="w-1/2 px-4 md:w-1/3">
-                        <div class="flex flex-col justify-center" data-aos="fade-up" data-aos-delay="400">
+                        <div class="flex flex-col justify-center" data-aos="fade-up" data-aos-delay="500">
                             <div class="rounded-full border-4 border-primary">
                                 <img src="assets/images/products/hooks.jpeg" alt="hooks"
                                      class="h-auto w-full max-w-full rounded-full">
