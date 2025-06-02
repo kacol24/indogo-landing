@@ -1,6 +1,7 @@
 @extends('_layouts.master')
 
 @section('site_title', 'Cooler Bag')
+@section('site_description', 'Temukan baby cooler bag berkualitas tinggi dari BabyGo! Dilengkapi kompartemen besar, built-in stroller hook, thermal foil tahan hingga 24 jam, dan desain stylish. Solusi terbaik untuk menyimpan ASI dan perlengkapan bayi, cocok untuk working moms dan orang tua modern.')
 
 @section('content')
     <section class="relative gradient-decoration">
@@ -21,7 +22,8 @@
         <div class="container mx-auto px-4">
             <div class="text-center">
                 <h1 class="mb-2 text-3xl font-bold tracking-tighter font-gotham-rounded text-primary md:md-6 md:mb-4 md:text-7xl">
-                    <span class="block text-[#ff8000]">High Quality & Leak Proof</span>
+                    <span class="block text-[#ff8000]"
+                          data-aos="fade-fown">High Quality & Leak Proof</span>
                     Cooler Bag for Working Mom
                 </h1>
                 <div class="text-lg text-body md:text-5xl" data-aos="fade">
